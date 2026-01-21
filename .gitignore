@@ -6,3 +6,7 @@ data/**
 
 # Keep .gitignore tracked
 !.gitignore
+
+# Ignore student notebooks (any file with `_student` in its name)
+**/*_student*.ipynb
+*_student*.ipynb
