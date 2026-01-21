@@ -1,0 +1,60 @@
+% SÁL242F — Exercise 0: Python Basics
+\documentclass[11pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{hyperref}
+\usepackage{enumitem}
+\setlist{nosep}
+
+\begin{document}
+
+\begin{center}
+  {\LARGE \textbf{SÁL242F — Exercise 0: Python Basics}}\\[6pt]
+  {\large Optional practice exercise}\\
+\end{center}
+
+\vspace{6pt}
+
+\section*{Goal}
+Get comfortable with core Python concepts used throughout the course: variables, strings, numbers, lists, dictionaries, control flow, functions, and basic data libraries (pandas, matplotlib).
+
+\section*{What to submit}
+Submit the completed Jupyter notebook file \texttt{sal242f\_exercise0.ipynb} with your solutions and outputs visible. Keep the original notebook filename and ensure cells have been executed so outputs appear when the notebook is opened.
+
+\section*{Structure}
+The notebook contains short, focused tasks. Each task asks you to write code in a single cell. Complete the cell marked for that task and run it so the output is visible.
+
+\section*{Tasks (summary)}
+\begin{enumerate}
+  \item Variables and data types — create variables of different types and print them with their types.
+  \item Strings — trim and split a name, extract parts and initials.
+  \item Numbers — simple budget arithmetic and percent calculation.
+  \item Lists — compute lengths and average length for a list of words.
+  \item Dictionaries — create a small dictionary describing a book, then read and update it.
+  \item If statements — map a numeric score to a letter grade.
+  \item Loops — count positive, negative and zero values in a list.
+  \item Functions — implement \texttt{summarize\_text(s)} producing basic text statistics.
+  \item Importing libraries — create a pandas DataFrame from a small dictionary, print the frame, compute column means, and plot columns using matplotlib.
+\end{enumerate}
+
+\section*{Hints}
+\begin{itemize}
+  \item Use Python built-ins like \texttt{len}, \texttt{sum}, \texttt{round}, and string methods such as \texttt{strip()} and \texttt{split()}.
+  \item For the DataFrame task, import pandas as \texttt{pd} and matplotlib.pyplot as \texttt{plt}.
+  \item When checking for the presence of the word "python" in a string, use case-insensitive matching (e.g., convert the string to lowercase first).
+  \item Keep solutions short and idiomatic; prefer list comprehensions for simple transforms.
+\end{itemize}
+
+\section*{Grading / Feedback}
+This exercise is optional and intended for practice. If you share it for feedback, instructors or TAs will look for correct outputs and clear, readable code. Make sure cells run from top to bottom without errors.
+
+\section*{Troubleshooting}
+\begin{itemize}
+  \item If a cell fails, restart the kernel and run all cells in order (Notebook menu: Kernel \textrightarrow Restart & Run All).
+  \item If plotting does not display in your environment, ensure the notebook server supports inline plots (most setups do). Using \texttt{plt.show()} in the plotting cell forces rendering.
+\end{itemize}
+
+\vspace{8pt}
+Good luck — experiment and have fun practicing Python basics!
+
+\end{document}

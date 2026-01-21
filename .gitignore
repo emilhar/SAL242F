@@ -10,3 +10,31 @@ data/**
 # Ignore student notebooks (any file with `_student` in its name)
 **/*_student*.ipynb
 *_student*.ipynb
+
+# LaTeX artifacts
+# Common auxiliary and build files produced by LaTeX engines
+*.aux
+*.log
+*.out
+*.toc
+*.lof
+*.lot
+*.fls
+*.fdb_latexmk
+*.synctex.gz
+*.nav
+*.snm
+*.run.xml
+*.bbl
+*.blg
+*.bcf
+*.dvi
+*.ps
+*.fdb_latexmk
+
+# PDF outputs
+*.pdf
+
+# Temporary directories used by some LaTeX toolchains
+.latexmk/
+.build/

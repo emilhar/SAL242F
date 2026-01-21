@@ -27,19 +27,30 @@ jobs:
         run: |
           set -euo pipefail
 
-          # 1) zip WITH solutions (original exercises/)
           zip -r exercises_with_solutions.zip exercises
 
-          # 2) create stripped tree and zip it
           rm -rf stripped
           cp -a exercises stripped
-
           find stripped -name '*.ipynb' -print0 | xargs -0 -n1 python strip_solutions.py
-
           (cd stripped && zip -r ../exercises_without_solutions.zip .)
 
+      - name: Build instructions PDFs
+        run: |
+          set -euo pipefail
+
+          for d in exercises/exercise_*/instructions; do
+            tex="$d/instructions.tex"
+            if [ -f "$tex" ]; then
+              exercise=$(basename "$(dirname "$d")")
+              out="sal242f_${exercise}_instructions.pdf"
+
+              echo "Building $out"
+              (cd "$d" && pdflatex -interaction=nonstopmode instructions.tex)
+              mv "$d/instructions.pdf" "$out"
+            fi
+          done
+
       - name: Create GitHub Release
-        id: release
         uses: softprops/action-gh-release@v2
         with:
           tag_name: release-${{ github.sha }}
@@ -48,3 +59,4 @@ jobs:
           files: |
             exercises_with_solutions.zip
             exercises_without_solutions.zip
+            sal242f_exercise*_instructions.pdf
