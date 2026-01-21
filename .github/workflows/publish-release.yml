@@ -23,6 +23,15 @@ jobs:
           python -m pip install --upgrade pip
           pip install nbformat
 
+      - name: Install LaTeX (pdflatex)
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y \
+            texlive-latex-base \
+            texlive-latex-recommended \
+            texlive-latex-extra \
+            texlive-fonts-recommended
+
       - name: Build zips
         run: |
           set -euo pipefail
