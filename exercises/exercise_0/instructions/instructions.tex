@@ -1,60 +1,84 @@
-% SÁL242F — Exercise 0: Python Basics
 \documentclass[11pt]{article}
-\usepackage[utf8]{inputenc}
+
+\usepackage[a4paper,margin=2.5cm]{geometry}
 \usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{lmodern}
 \usepackage{hyperref}
 \usepackage{enumitem}
-\setlist{nosep}
+
+\title{SÁL242F Exercise 0: Python Basics\\\large Instructions}
+\author{}
+\date{}
 
 \begin{document}
+\maketitle
 
-\begin{center}
-  {\LARGE \textbf{SÁL242F — Exercise 0: Python Basics}}\\[6pt]
-  {\large Optional practice exercise}\\
-\end{center}
+\section*{What you are given}
+You are given one file:
+\begin{itemize}[leftmargin=*]
+  \item A \textbf{Jupyter notebook file} with the extension \texttt{.ipynb}.
+\end{itemize}
 
-\vspace{6pt}
+\section*{What is an \texttt{.ipynb} file?}
+An \texttt{.ipynb} file is a \textbf{Jupyter Notebook}.  
+It is an interactive document that mixes:
+\begin{itemize}[leftmargin=*]
+  \item explanatory text (Markdown),
+  \item Python code,
+  \item and the output of that code.
+\end{itemize}
 
-\section*{Goal}
-Get comfortable with core Python concepts used throughout the course: variables, strings, numbers, lists, dictionaries, control flow, functions, and basic data libraries (pandas, matplotlib).
+You \textbf{cannot} open an \texttt{.ipynb} file correctly by double-clicking it like a PDF or Word file.  
+It must be opened in a notebook environment (such as Google Colab, Jupyter, or VS Code).
 
-\section*{What to submit}
-Submit the completed Jupyter notebook file \texttt{sal242f\_exercise0.ipynb} with your solutions and outputs visible. Keep the original notebook filename and ensure cells have been executed so outputs appear when the notebook is opened.
+\section*{What the notebook contains}
+The notebook is a guided, step-by-step introduction to Python basics.  
+It is structured as follows:
+\begin{itemize}[leftmargin=*]
+  \item Short explanations of Python concepts.
+  \item \textbf{Task} sections where you write Python code.
+  \item Code cells that you run to see results immediately.
+\end{itemize}
 
-\section*{Structure}
-The notebook contains short, focused tasks. Each task asks you to write code in a single cell. Complete the cell marked for that task and run it so the output is visible.
+In the code cells, you will see comments like:
+\begin{verbatim}
+# TODO: Write your solution here
+\end{verbatim}
+This is where you write your own code.
 
-\section*{Tasks (summary)}
-\begin{enumerate}
-  \item Variables and data types — create variables of different types and print them with their types.
-  \item Strings — trim and split a name, extract parts and initials.
-  \item Numbers — simple budget arithmetic and percent calculation.
-  \item Lists — compute lengths and average length for a list of words.
-  \item Dictionaries — create a small dictionary describing a book, then read and update it.
-  \item If statements — map a numeric score to a letter grade.
-  \item Loops — count positive, negative and zero values in a list.
-  \item Functions — implement \texttt{summarize\_text(s)} producing basic text statistics.
-  \item Importing libraries — create a pandas DataFrame from a small dictionary, print the frame, compute column means, and plot columns using matplotlib.
+\section*{How to view and run the notebook}
+You may run the notebook anywhere you like.  
+The easiest recommended option is \textbf{Google Colab}, which runs in your browser and requires no installation.
+
+\subsection*{Recommended: Google Colab}
+\begin{enumerate}[leftmargin=*]
+  \item Go to \url{https://colab.research.google.com/}.
+  \item Click \textbf{File} $\rightarrow$ \textbf{Upload notebook}.
+  \item Upload the \texttt{.ipynb} file.
+  \item The notebook will open in your browser.
+  \item Click a cell and press \textbf{Shift+Enter} to run it.
 \end{enumerate}
 
-\section*{Hints}
-\begin{itemize}
-  \item Use Python built-ins like \texttt{len}, \texttt{sum}, \texttt{round}, and string methods such as \texttt{strip()} and \texttt{split()}.
-  \item For the DataFrame task, import pandas as \texttt{pd} and matplotlib.pyplot as \texttt{plt}.
-  \item When checking for the presence of the word "python" in a string, use case-insensitive matching (e.g., convert the string to lowercase first).
-  \item Keep solutions short and idiomatic; prefer list comprehensions for simple transforms.
+
+\section*{How to work through the notebook}
+\begin{itemize}[leftmargin=*]
+  \item Read the explanation text in each section.
+  \item For each \textbf{Task}, write code in the cell marked with \texttt{TODO}.
+  \item Run the cell and check the output.
+  \item Fix errors and re-run as needed.
 \end{itemize}
 
-\section*{Grading / Feedback}
-This exercise is optional and intended for practice. If you share it for feedback, instructors or TAs will look for correct outputs and clear, readable code. Make sure cells run from top to bottom without errors.
 
-\section*{Troubleshooting}
-\begin{itemize}
-  \item If a cell fails, restart the kernel and run all cells in order (Notebook menu: Kernel \textrightarrow Restart & Run All).
-  \item If plotting does not display in your environment, ensure the notebook server supports inline plots (most setups do). Using \texttt{plt.show()} in the plotting cell forces rendering.
+\section*{Getting help (encouraged)}
+If you get stuck, you are encouraged to actively seek help:
+\begin{itemize}[leftmargin=*]
+  \item Re-read the example code in the notebook.
+  \item Look up Python basics online.
+  \item Ask an LLM (for example ChatGPT, Gemini, Copilot, etc.). This is allowed and encouraged for learning.
 \end{itemize}
 
-\vspace{8pt}
-Good luck — experiment and have fun practicing Python basics!
+\noindent\textbf{Tip:} When asking an LLM, include the task description, your current code, and any error messages. Ask for a n explanation, not just the final answer.
+
 
 \end{document}

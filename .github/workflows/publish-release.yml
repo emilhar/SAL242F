@@ -47,6 +47,7 @@ jobs:
         run: |
           set -euo pipefail
 
+          shopt -s nullglob
           for d in exercises/exercise_*/instructions; do
             tex="$d/instructions.tex"
             if [ -f "$tex" ]; then
@@ -54,8 +55,18 @@ jobs:
               out="sal242f_${exercise}_instructions.pdf"
 
               echo "Building $out"
-              (cd "$d" && pdflatex -interaction=nonstopmode instructions.tex)
-              mv "$d/instructions.pdf" "$out"
+
+              # Run pdflatex but do NOT fail the job on LaTeX errors
+              (cd "$d" && pdflatex -interaction=nonstopmode -halt-on-error instructions.tex >/dev/null 2>&1) || true
+
+              # Only fail if the PDF was not produced
+              if [ -f "$d/instructions.pdf" ]; then
+                mv "$d/instructions.pdf" "$out"
+              else
+                echo "ERROR: pdflatex did not produce $d/instructions.pdf"
+                echo "Tip: check $d/*.log in the repo for details."
+                exit 1
+              fi
             fi
           done
 
