@@ -1,0 +1,114 @@
+\documentclass[11pt]{article}
+
+\usepackage[a4paper,margin=2.5cm]{geometry}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{lmodern}
+\usepackage{hyperref}
+\usepackage{enumitem}
+\usepackage{verbatim}
+
+\title{SÁL242F Exercise 1: Introduction to Python for Data Analysis\\\large Instructions (Main file)}
+\author{}
+\date{}
+
+\begin{document}
+\maketitle
+
+\section*{Overview}
+This exercise is done in the accompanying Jupyter notebook file:
+
+\begin{itemize}[leftmargin=*]
+  \item \texttt{sal242f\_exercise1.ipynb}
+\end{itemize}
+
+This exercise is about learning practical Python data analysis with a real dataset:
+loading data, inspecting columns, basic cleaning/feature construction, simple research questions using \texttt{groupby}, and minimal plotting with \texttt{matplotlib}.
+
+\section*{What is an \texttt{.ipynb} file?}
+A file ending in \texttt{.ipynb} is a \textbf{Jupyter Notebook}.  
+It is an interactive document that mixes:
+\begin{itemize}[leftmargin=*]
+  \item text explanations,
+  \item Python code cells,
+  \item and the output of running those cells.
+\end{itemize}
+
+You do \textbf{not} read it like a PDF.  
+You open it in a notebook environment (e.g.\ Google Colab, Jupyter/JupyterLab, or VS Code) where you can run code cell-by-cell.
+
+\section*{Where to run the notebook}
+You can run the notebook wherever you like (local Jupyter, VS Code, etc.).  
+\textbf{Recommended option: Google Colab} (easy, runs in your browser, no installation).
+
+\subsection*{Recommended: Google Colab (how to open and run)}
+\begin{enumerate}[leftmargin=*]
+  \item Go to \url{https://colab.research.google.com/}.
+  \item Click \textbf{File} $\rightarrow$ \textbf{Upload notebook}.
+  \item Upload \texttt{sal242f\_exercise1.ipynb}.
+  \item Run a cell with \textbf{Shift+Enter}.
+  \item Work from top to bottom. If you change code, run the cell again to update the output.
+\end{enumerate}
+
+\section*{Data files (required)}
+The notebook expects a CSV file:
+\begin{itemize}[leftmargin=*]
+  \item \texttt{openalex\_works.csv}
+\end{itemize}
+
+You can download the data files from:
+\begin{itemize}[leftmargin=*]
+  \item \url{https://www.dropbox.com/scl/fo/puhtq4es2j9rdztw3a8ic/AAKSGYcpYoQm_qsAJGLzyGU?rlkey=83dghkyiqmjh9kts8u3nvlj5c&st=t0fylath&dl=0}
+\end{itemize}
+
+Feel free to download the data directly from OpenAlex if you prefer. Visit \url{https://openalex.org/} for more information.
+
+\subsection*{Important: file path in the notebook}
+Inside the notebook you will see a line like:
+\begin{verbatim}
+fp = '../../data/exercise_1/openalex_works.csv'  # Change this to the actual path
+\end{verbatim}
+
+You must make sure \texttt{fp} points to the correct location of \texttt{openalex\_works.csv} on your system.
+
+\subsection*{If you are using Google Colab}
+You have two simple options:
+
+\begin{itemize}[leftmargin=*]
+  \item \textbf{Option A (quick): upload the CSV into Colab}
+  \begin{itemize}
+    \item In Colab, click the folder icon (Files) on the left.
+    \item Click \textbf{Upload} and upload \texttt{openalex\_works.csv}.
+    \item Update the path to something like:
+\begin{verbatim}
+fp = 'openalex_works.csv'
+\end{verbatim}
+  \end{itemize}
+
+  \item \textbf{Option B: put the file in Google Drive and mount Drive}
+  \begin{itemize}
+    \item Save the CSV into a folder in your Google Drive.
+    \item In Colab, mount Drive (\textbf{this is code you run inside the notebook}):
+\begin{verbatim}
+from google.colab import drive
+drive.mount('/content/drive')
+\end{verbatim}
+    \item Update \texttt{fp} to the full path in Drive, e.g.:
+\begin{verbatim}
+fp = '/content/drive/MyDrive/.../openalex_works.csv'
+\end{verbatim}
+  \end{itemize}
+\end{itemize}
+
+
+\section*{Getting help (strongly encouraged)}
+If you get stuck, you are encouraged to actively seek help:
+\begin{itemize}[leftmargin=*]
+  \item Re-read the notebook text and look at earlier examples.
+  \item Search online for Python/pandas help (e.g.\ \texttt{groupby}, \texttt{value\_counts}, \texttt{explode}).
+  \item Ask an LLM (for example ChatGPT, Gemini, Copilot, etc.). This is allowed and encouraged for learning.
+\end{itemize}
+
+\noindent\textbf{Tip when using an LLM:} Paste the question, your code, and the full error message/output. Ask for a hint or a minimal correction and a short explanation.
+
+\end{document}
