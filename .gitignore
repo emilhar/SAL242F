@@ -1,0 +1,8 @@
+# Ignore any directory named `data` and all its contents anywhere in the repo
+**/data/**
+
+# Also ignore any top-level `data` directory
+data/**
+
+# Keep .gitignore tracked
+!.gitignore
