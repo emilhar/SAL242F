@@ -54,7 +54,7 @@ jobs:
 
       - name: Create release
         id: create_release
-        uses: peter-evans/create-or-update-release@v4
+        uses: peter-evans/create-or-update-release@v3
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
           tag_name: release-${{ github.sha }}
