@@ -1,0 +1,198 @@
+DatasetId,Slug,Title,OwnerUserId,UserName,URL
+310,creditcardfraud,Credit Card Fraud Detection,,unknown,https://www.kaggle.com/datasets/unknown/creditcardfraud
+10664,retailtransactiondata,Retail Transaction Data,26267.0,regivm,https://www.kaggle.com/datasets/regivm/retailtransactiondata
+3258,sign-language-mnist,Sign Language MNIST,268812.0,datamunge,https://www.kaggle.com/datasets/datamunge/sign-language-mnist
+4880,four-shapes,Four Shapes,279285.0,smeschke,https://www.kaggle.com/datasets/smeschke/four-shapes
+12414,data-science-for-good-kiva-crowdfunding,Data Science for Good: Kiva Crowdfunding,,unknown,https://www.kaggle.com/datasets/unknown/data-science-for-good-kiva-crowdfunding
+2964,xinjiang-pm,xinjiang(Predictive Maintenance),703448.0,yuansaijie0604,https://www.kaggle.com/datasets/yuansaijie0604/xinjiang-pm
+4679,graduate-school-admission-data,Graduate school admission data,726376.0,malapatiravi,https://www.kaggle.com/datasets/malapatiravi/graduate-school-admission-data
+2672,indian-liver-patient-dataset,Indian Liver Patient Dataset,734733.0,jeevannagaraj,https://www.kaggle.com/datasets/jeevannagaraj/indian-liver-patient-dataset
+2050,spam-text-message-classification,Spam Text Message Classification,,unknown,https://www.kaggle.com/datasets/unknown/spam-text-message-classification
+1067,ibm-hr-analytics-attrition-dataset,IBM HR Analytics Employee Attrition & Performance,862007.0,pavansubhasht,https://www.kaggle.com/datasets/pavansubhasht/ibm-hr-analytics-attrition-dataset
+10479,black-friday,Black Friday,932915.0,sdolezel,https://www.kaggle.com/datasets/sdolezel/black-friday
+2552,hr-employee-retention,HR Employee Retention,1010879.0,gummulasrikanth,https://www.kaggle.com/datasets/gummulasrikanth/hr-employee-retention
+7617,spokenverbs,Spoken Verbs,1360065.0,jbuchner,https://www.kaggle.com/datasets/jbuchner/spokenverbs
+13996,telco-customer-churn,Telco Customer Churn,1574575.0,blastchar,https://www.kaggle.com/datasets/blastchar/telco-customer-churn
+13720,insurance,Medical Cost Personal Datasets,1616098.0,mirichoi0218,https://www.kaggle.com/datasets/mirichoi0218/insurance
+14872,graduate-admissions,Graduate Admission 2,1303085.0,mohansacharya,https://www.kaggle.com/datasets/mohansacharya/graduate-admissions
+14370,pimaindiansdiabetescsv,pima-indians-diabetes.csv,1530601.0,kumargh,https://www.kaggle.com/datasets/kumargh/pimaindiansdiabetescsv
+39176,lego-brick-images,Images of LEGO Bricks,2101774.0,joosthazelzet,https://www.kaggle.com/datasets/joosthazelzet/lego-brick-images
+39046,heart-risk-problem,Heart risk problem,2102729.0,shivakumarcd,https://www.kaggle.com/datasets/shivakumarcd/heart-risk-problem
+42363,hr-analytics-case-study,HR Analytics Case Study,1790645.0,vjchoudhary7,https://www.kaggle.com/datasets/vjchoudhary7/hr-analytics-case-study
+188596,healthcare-provider-fraud-detection-analysis,HEALTHCARE PROVIDER FRAUD DETECTION ANALYSIS,1534689.0,rohitrox,https://www.kaggle.com/datasets/rohitrox/healthcare-provider-fraud-detection-analysis
+107706,cardiovascular-disease-dataset,Cardiovascular Disease dataset,2389095.0,sulianova,https://www.kaggle.com/datasets/sulianova/cardiovascular-disease-dataset
+263888,credit-card,Credit Card Fraud Detection,2067080.0,mishra5001,https://www.kaggle.com/datasets/mishra5001/credit-card
+222487,heart-disease-prediction-using-logistic-regression,Logistic regression To predict heart disease,3280617.0,dileep070,https://www.kaggle.com/datasets/dileep070/heart-disease-prediction-using-logistic-regression
+494724,novel-corona-virus-2019-dataset,Novel Corona Virus 2019 Dataset,71388.0,sudalairajkumar,https://www.kaggle.com/datasets/sudalairajkumar/novel-corona-virus-2019-dataset
+451746,hr-employee-attrition,HR Employee Attrition,763021.0,abhishektibrewal,https://www.kaggle.com/datasets/abhishektibrewal/hr-employee-attrition
+533871,real-or-fake-fake-jobposting-prediction,Real / Fake Job Posting Prediction,1571785.0,shivamb,https://www.kaggle.com/datasets/shivamb/real-or-fake-fake-jobposting-prediction
+486282,summer-olympics-medals,Summer Olympics Medals (1976-2008),3390641.0,divyansh22,https://www.kaggle.com/datasets/divyansh22/summer-olympics-medals
+514919,ushealthinsurancedataset,US Health Insurance Dataset,3591373.0,teertha,https://www.kaggle.com/datasets/teertha/ushealthinsurancedataset
+548363,personal-loan-modeling,Personal Loan Modeling,3591373.0,teertha,https://www.kaggle.com/datasets/teertha/personal-loan-modeling
+567482,telecom-churn,Customer Churn,684804.0,barun2104,https://www.kaggle.com/datasets/barun2104/telecom-churn
+608506,glasses-or-no-glasses,Glasses or No Glasses,172795.0,jeffheaton,https://www.kaggle.com/datasets/jeffheaton/glasses-or-no-glasses
+666227,heights-and-weights-dataset,Heights and Weights Dataset,3220660.0,burnoutminer,https://www.kaggle.com/datasets/burnoutminer/heights-and-weights-dataset
+654897,disease-prediction-using-machine-learning,Disease Prediction Using Machine Learning,3578134.0,kaushil268,https://www.kaggle.com/datasets/kaushil268/disease-prediction-using-machine-learning
+729058,churn-modelling,Churn Modelling,4754865.0,shubh0799,https://www.kaggle.com/datasets/shubh0799/churn-modelling
+922230,microsoft-azure-predictive-maintenance,Microsoft Azure Predictive Maintenance,238237.0,arnabbiswas1,https://www.kaggle.com/datasets/arnabbiswas1/microsoft-azure-predictive-maintenance
+881975,contact-tracing-application-sample-datasets,Contact Tracing Application Sample Dataset,1649389.0,aleanfigeno,https://www.kaggle.com/datasets/aleanfigeno/contact-tracing-application-sample-datasets
+869050,health-insurance-cross-sell-prediction,Health Insurance Cross Sell Prediction 🏠 🏥,1815526.0,anmolkumar,https://www.kaggle.com/datasets/anmolkumar/health-insurance-cross-sell-prediction
+814120,resume-dataset,Resume Dataset,2020756.0,palaksood97,https://www.kaggle.com/datasets/palaksood97/resume-dataset
+871803,healthcare-analytics,AV : Healthcare Analytics,3335785.0,shivan118,https://www.kaggle.com/datasets/shivan118/healthcare-analytics
+836054,symptoms-and-covid-presence,Symptoms and COVID Presence (May 2020 data),4971832.0,hemanthhari,https://www.kaggle.com/datasets/hemanthhari/symptoms-and-covid-presence
+821698,diabetes-data-set,Diabetes Data Set,5484076.0,vikasukani,https://www.kaggle.com/datasets/vikasukani/diabetes-data-set
+795813,epitope-prediction,COVID-19/SARS B-cell Epitope Prediction,5513209.0,futurecorporation,https://www.kaggle.com/datasets/futurecorporation/epitope-prediction
+1019790,hr-analytics-job-change-of-data-scientists,HR Analytics: Job Change of Data Scientists,761104.0,arashnic,https://www.kaggle.com/datasets/arashnic/hr-analytics-job-change-of-data-scientists
+1024763,fire-detection-dataset,Fire Detection Dataset,2941945.0,christofel04,https://www.kaggle.com/datasets/christofel04/fire-detection-dataset
+1018259,liver-disease-patient-dataset,Liver Disease Patient Dataset 30K train data,4533747.0,abhi8923shriv,https://www.kaggle.com/datasets/abhi8923shriv/liver-disease-patient-dataset
+1180930,jobathon-analytics-vidhya,Health Insurance - JOB-A-THON - Analytics Vidhya,4184718.0,imsparsh,https://www.kaggle.com/datasets/imsparsh/jobathon-analytics-vidhya
+1120859,stroke-prediction-dataset,Stroke Prediction Dataset,6402661.0,fedesoriano,https://www.kaggle.com/datasets/fedesoriano/stroke-prediction-dataset
+1192196,rfsc-dataset,RFSC_Dataset,6729855.0,chandharlabs,https://www.kaggle.com/datasets/chandharlabs/rfsc-dataset
+1517444,promo-abuse-detection-for-payment-apps,Promo Code Abuse Detection (Fraud Detection),2032938.0,tanisha1416,https://www.kaggle.com/datasets/tanisha1416/promo-abuse-detection-for-payment-apps
+1537283,retails-sales-beer-wine-and-liquor-stores,"Retails Sales - Beer, Wine and Liquor Stores",4166470.0,vishnucr,https://www.kaggle.com/datasets/vishnucr/retails-sales-beer-wine-and-liquor-stores
+1608748,genes-information,Genes information,2262596.0,alexandervc,https://www.kaggle.com/datasets/alexandervc/genes-information
+1667677,opioids-vssr-provisional-drug-overdose-statistics,Opioids in the US: VSRR Drug Overdose statistics,6450547.0,craigchilvers,https://www.kaggle.com/datasets/craigchilvers/opioids-vssr-provisional-drug-overdose-statistics
+1807255,vehicle-claim-fraud-detection,Vehicle Insurance Claim Fraud Detection,1571785.0,shivamb,https://www.kaggle.com/datasets/shivamb/vehicle-claim-fraud-detection
+1809886,bankchurnerscsv,BankChurners.csv,4316901.0,imanemag,https://www.kaggle.com/datasets/imanemag/bankchurnerscsv
+1905511,nerf-dataset,NeRF Dataset,4382914.0,sauravmaheshkar,https://www.kaggle.com/datasets/sauravmaheshkar/nerf-dataset
+1946000,south-korean-lottery-numbers,South Korean Lottery Numbers,5720392.0,calebreigada,https://www.kaggle.com/datasets/calebreigada/south-korean-lottery-numbers
+1912907,60k-responses-of-16-personalities-test-mbt,Personality classification Data: 16 Personalities,8267012.0,anshulmehtakaggl,https://www.kaggle.com/datasets/anshulmehtakaggl/60k-responses-of-16-personalities-test-mbt
+1970078,obesity-dataset-cleaned-and-data-sinthetic,Obesity Dataset Cleaned and Data Sinthetic,9139328.0,mandysia,https://www.kaggle.com/datasets/mandysia/obesity-dataset-cleaned-and-data-sinthetic
+2049845,date-fruit-datasets,Date Fruit Datasets,10072866.0,muratkokludataset,https://www.kaggle.com/datasets/muratkokludataset/date-fruit-datasets
+2352240,students-data-analysis,Students Data Analysis,10980082.0,erqizhou,https://www.kaggle.com/datasets/erqizhou/students-data-analysis
+2387714,brain-stroke-dataset,Brain Stroke Dataset,7237430.0,jillanisofttech,https://www.kaggle.com/datasets/jillanisofttech/brain-stroke-dataset
+2401195,nifty-50-minute-data,NSE - Nifty 50 Index Minute data (2015 to 2026),7454683.0,debashis74017,https://www.kaggle.com/datasets/debashis74017/nifty-50-minute-data
+2578194,deaths-by-risk-factor-dataset,Deaths By Risk Factor Dataset,11197862.0,ahmadjalalmasood123,https://www.kaggle.com/datasets/ahmadjalalmasood123/deaths-by-risk-factor-dataset
+2817771,tweet-sentiment-s-impact-on-stock-returns,Tweet Sentiment's Impact on Stock Returns,10654180.0,thedevastator,https://www.kaggle.com/datasets/thedevastator/tweet-sentiment-s-impact-on-stock-returns
+2811044,sleep-efficiency,Sleep Efficiency Dataset,13263691.0,equilibriumm,https://www.kaggle.com/datasets/equilibriumm/sleep-efficiency
+2969966,risk-analytics-in-banking,Risk Analytics in Banking,3174020.0,sabarostami,https://www.kaggle.com/datasets/sabarostami/risk-analytics-in-banking
+2958426,3k-conversations-dataset-for-chatbot,3K Conversations Dataset for ChatBot,9348276.0,kreeshrajani,https://www.kaggle.com/datasets/kreeshrajani/3k-conversations-dataset-for-chatbot
+2962818,studentprofile,Student Profile with 24 features and 13000 rows,10544587.0,reeturajharsh,https://www.kaggle.com/datasets/reeturajharsh/studentprofile
+3243191,non-alcohol-fatty-liver-disease,Non-alcohol fatty liver disease (NAFLD),13364933.0,utkarshx27,https://www.kaggle.com/datasets/utkarshx27/non-alcohol-fatty-liver-disease
+3337014,exercise-and-fitness-metrics-dataset,Exercise and Fitness Metrics Dataset,4491801.0,aakashjoshi123,https://www.kaggle.com/datasets/aakashjoshi123/exercise-and-fitness-metrics-dataset
+3339750,iit-admissions-dataset,"IIT Admissions Dataset - 200,000 Students",14927546.0,goyaladi,https://www.kaggle.com/datasets/goyaladi/iit-admissions-dataset
+3384433,fraud-detection-dataset,Fraud Detection Dataset,14927546.0,goyaladi,https://www.kaggle.com/datasets/goyaladi/fraud-detection-dataset
+3264315,real-time-water-quality,Real Time Water Quality,15088678.0,vishnuverma1441,https://www.kaggle.com/datasets/vishnuverma1441/real-time-water-quality
+3572270,petase-and-non-petases-protein-sequences,PETase and Non PETases Protein Sequences,8001220.0,mohammadrezarezae,https://www.kaggle.com/datasets/mohammadrezarezae/petase-and-non-petases-protein-sequences
+3698125,water-quality-and-potability,Water Quality and Potability,9844680.0,uom190346a,https://www.kaggle.com/datasets/uom190346a/water-quality-and-potability
+3884248,comprehensive-credit-card-transactions-dataset,Comprehensive Credit Card Transactions Dataset,4560787.0,rajatsurana979,https://www.kaggle.com/datasets/rajatsurana979/comprehensive-credit-card-transactions-dataset
+3887289,streaming-application-viewership,Streaming Application,5111120.0,rajatkumar30,https://www.kaggle.com/datasets/rajatkumar30/streaming-application-viewership
+3948769,employees-satisfaction-analysis,Employee Satisfaction Survey Data,8618121.0,redpen12,https://www.kaggle.com/datasets/redpen12/employees-satisfaction-analysis
+3820679,predictive-analytics-for-customer-churn-dataset,Predictive Analytics for Customer Churn: Dataset,15300265.0,safrin03,https://www.kaggle.com/datasets/safrin03/predictive-analytics-for-customer-churn-dataset
+4053980,multi-language-dialogue-dataset-for-gpt-4,Multi-Language Dialogue Dataset (Gen by GPT-4),10654180.0,thedevastator,https://www.kaggle.com/datasets/thedevastator/multi-language-dialogue-dataset-for-gpt-4
+4062372,ai4math-mathematical-qa-dataset,AI4Math: Mathematical QA Dataset,10654180.0,thedevastator,https://www.kaggle.com/datasets/thedevastator/ai4math-mathematical-qa-dataset
+4043593,waterquality,waterquality dataset,11975272.0,eissaislam,https://www.kaggle.com/datasets/eissaislam/waterquality
+4027909,debris-detection-dataset,Space Debris Detection Dataset,13683169.0,sadianawar,https://www.kaggle.com/datasets/sadianawar/debris-detection-dataset
+4030196,obesity-or-cvd-risk-classifyregressorcluster,Obesity or CVD risk (Classify/Regressor/Cluster),15219265.0,aravindpcoder,https://www.kaggle.com/datasets/aravindpcoder/obesity-or-cvd-risk-classifyregressorcluster
+4339365,pcos-dataset,PCOS Dataset,7444662.0,cm037divya,https://www.kaggle.com/datasets/cm037divya/pcos-dataset
+4438189,walmart-sales,Walmart Sales,16192307.0,mikhail1681,https://www.kaggle.com/datasets/mikhail1681/walmart-sales
+4427551,human-disease-dataset,Human Disease Dataset,16551504.0,nitishjolly,https://www.kaggle.com/datasets/nitishjolly/human-disease-dataset
+4481306,drug-overdose-death,Drug overdose death,16731800.0,willianoliveiragibin,https://www.kaggle.com/datasets/willianoliveiragibin/drug-overdose-death
+4179710,financial-anomaly-data,Financial Anomaly Data,18137456.0,devondev,https://www.kaggle.com/datasets/devondev/financial-anomaly-data
+4585864,hr-employee-attrition-datasets,HR Employee Attrition Datasets,7951725.0,jash312,https://www.kaggle.com/datasets/jash312/hr-employee-attrition-datasets
+4577279,obesity-risk-dataset,Obesity Risk Dataset,8844668.0,jpkochar,https://www.kaggle.com/datasets/jpkochar/obesity-risk-dataset
+4541632,credit-card-spendings,Credit Card Spendings,13192479.0,ayushchandramaurya,https://www.kaggle.com/datasets/ayushchandramaurya/credit-card-spendings
+4511258,road-accident-dataset,Road Accident Dataset,15593526.0,farshidbahrami021,https://www.kaggle.com/datasets/farshidbahrami021/road-accident-dataset
+4649694,bank-customer-churn-prediction-dataset,Banking Customer Churn Prediction Dataset,15666745.0,saurabhbadole,https://www.kaggle.com/datasets/saurabhbadole/bank-customer-churn-prediction-dataset
+4581451,evolution-of-humans-datasets-for-clasification,Evolution of Humans DataSets for Clasification,18525229.0,santiago123678,https://www.kaggle.com/datasets/santiago123678/evolution-of-humans-datasets-for-clasification
+4578400,credit-card-fraud-prediction,Credit Card Fraud Prediction,19571938.0,kelvinkelue,https://www.kaggle.com/datasets/kelvinkelue/credit-card-fraud-prediction
+4878412,bald-women,"Bald Women - Bald Detection Dataset, Ludwig scale",12421376.0,trainingdatapro,https://www.kaggle.com/datasets/trainingdatapro/bald-women
+4916971,retail-transaction-dataset,Retail Transaction Dataset,15683841.0,fahadrehman07,https://www.kaggle.com/datasets/fahadrehman07/retail-transaction-dataset
+5043355,social-media-usage-and-emotional-well-being,Social Media Usage and Emotional Well-Being,8243135.0,emirhanai,https://www.kaggle.com/datasets/emirhanai/social-media-usage-and-emotional-well-being
+5032721,dataset-for-renewable-energy-systems,Dataset for renewable energy systems,12685278.0,girumwondemagegn,https://www.kaggle.com/datasets/girumwondemagegn/dataset-for-renewable-energy-systems
+5058609,hr-dataset-analysis,Predicting Employee Turnover at Sailsfort Motors,16159333.0,manidevesh,https://www.kaggle.com/datasets/manidevesh/hr-dataset-analysis
+5268504,multilingual-customer-support-tickets,Customer IT Support - Ticket Dataset,3023333.0,tobiasbueck,https://www.kaggle.com/datasets/tobiasbueck/multilingual-customer-support-tickets
+5287820,flood-prediction-dataset,Flood Prediction Dataset,18126185.0,naiyakhalid,https://www.kaggle.com/datasets/naiyakhalid/flood-prediction-dataset
+5196907,heart-disease-prediction,Heart Disease prediction,20691673.0,rashadrmammadov,https://www.kaggle.com/datasets/rashadrmammadov/heart-disease-prediction
+5373726,coffee-green-bean-with-17-defects-original,Coffee Green Bean with 17 Defects (original),6347279.0,sujitraarw,https://www.kaggle.com/datasets/sujitraarw/coffee-green-bean-with-17-defects-original
+5351080,large-retail-data-set-for-eda,Retail Sales and Customer Behavior Analysis,8996934.0,utkalk,https://www.kaggle.com/datasets/utkalk/large-retail-data-set-for-eda
+5641832,employee-performance-and-productivity-data,👩🏽‍💻 Employee Performance and Productivity Data,3952497.0,mexwell,https://www.kaggle.com/datasets/mexwell/employee-performance-and-productivity-data
+5553421,student-performance-prediction,Student Performance Prediction,12252618.0,souradippal,https://www.kaggle.com/datasets/souradippal/student-performance-prediction
+5551462,gdp-and-productivity-of-indian-cities-2019-2024,GDP and Productivity of Indian Cities (2019-2024),17351616.0,sudhanvahg,https://www.kaggle.com/datasets/sudhanvahg/gdp-and-productivity-of-indian-cities-2019-2024
+5649662,mental-health-and-technology-usage-dataset,📱💻 Mental Health & Technology Usage Dataset 🌱,21625986.0,waqi786,https://www.kaggle.com/datasets/waqi786/mental-health-and-technology-usage-dataset
+5813313,data-to-learn-data-science,Fitness Tracking Data for Data Science Learning,6062366.0,davinascimento,https://www.kaggle.com/datasets/davinascimento/data-to-learn-data-science
+5656615,podcast-listening-time-prediction-dataset,Podcast Listening Time Prediction Dataset,6151869.0,ysthehurricane,https://www.kaggle.com/datasets/ysthehurricane/podcast-listening-time-prediction-dataset
+5725971,student-dropout-analysis-and-prediction-dataset,Student Dropout Analysis and Prediction Dataset,17309859.0,abdullah0a,https://www.kaggle.com/datasets/abdullah0a/student-dropout-analysis-and-prediction-dataset
+5825454,gym-members-exercise-dataset,Gym Members Exercise Dataset,19065304.0,valakhorasani,https://www.kaggle.com/datasets/valakhorasani/gym-members-exercise-dataset
+5735157,supermarket-sales,Supermarket Sales Dataset,19581740.0,faresashraf1001,https://www.kaggle.com/datasets/faresashraf1001/supermarket-sales
+5944648,youtube-channel-performance-analytics,YouTube Channel Performance Analytics,14472837.0,positivealexey,https://www.kaggle.com/datasets/positivealexey/youtube-channel-performance-analytics
+6004872,all-autoimmune-disorder-10k,Comprehensive Autoimmune Disorder Dataset,20555055.0,abdullahragheb,https://www.kaggle.com/datasets/abdullahragheb/all-autoimmune-disorder-10k
+5936188,mountains-vs-beaches-preference,Mountains vs. Beaches Preferences,21762985.0,jahnavipaliwal,https://www.kaggle.com/datasets/jahnavipaliwal/mountains-vs-beaches-preference
+6144877,student-depression-dataset,Student Depression Dataset.,4881757.0,hopesb,https://www.kaggle.com/datasets/hopesb/student-depression-dataset
+5976853,remote-work-and-mental-health,Remote Work & Mental Health,23200477.0,iramshahzadi9,https://www.kaggle.com/datasets/iramshahzadi9/remote-work-and-mental-health
+6178563,daily-store-sales-and-revenue-of-600-plus-skus,Daily Store Sales and Revenue of 600 plus SKUs,170101.0,pradeep13,https://www.kaggle.com/datasets/pradeep13/daily-store-sales-and-revenue-of-600-plus-skus
+6241692,social-media-usage-and-mental-health-dataset,Social Media Usage and Mental Health Dataset,1627850.0,anshika1011,https://www.kaggle.com/datasets/anshika1011/social-media-usage-and-mental-health-dataset
+6253429,2024-u-s-election-sentiment-on-x,2024 U.S. Election Sentiment on X,8243135.0,emirhanai,https://www.kaggle.com/datasets/emirhanai/2024-u-s-election-sentiment-on-x
+6287894,hotel-bookings-for-chain-of-hotels,Hotel bookings for chain of hotels,10947400.0,minaaziz,https://www.kaggle.com/datasets/minaaziz/hotel-bookings-for-chain-of-hotels
+6280133,traffic-accident-prediction,Traffic Accident Prediction 💥🚗,19356256.0,denkuznetz,https://www.kaggle.com/datasets/denkuznetz/traffic-accident-prediction
+6195572,melbourne-adaptive-learning-dataset-mald,Melbourne Adaptive Learning Dataset (MALD),20807585.0,datasetengineer,https://www.kaggle.com/datasets/datasetengineer/melbourne-adaptive-learning-dataset-mald
+6217635,tourism-resource-management-dataset,Tourism Management Dataset,21058745.0,ziya07,https://www.kaggle.com/datasets/ziya07/tourism-resource-management-dataset
+6235837,neural-activity-dataset-for-parkinsons-disease,Neural Activity Dataset for Parkinson's Disease,21058745.0,ziya07,https://www.kaggle.com/datasets/ziya07/neural-activity-dataset-for-parkinsons-disease
+6448400,customer-shopping-trends,Customer Purchase behaivour,13438201.0,sbalharabalhara,https://www.kaggle.com/datasets/sbalharabalhara/customer-shopping-trends
+6284720,chronic-kidney-diseases,Chronic kidney diseases,23613503.0,rakshamohan1,https://www.kaggle.com/datasets/rakshamohan1/chronic-kidney-diseases
+6512323,calories-burnt-prediction,Calories Burnt Prediction,8434304.0,ruchikakumbhar,https://www.kaggle.com/datasets/ruchikakumbhar/calories-burnt-prediction
+6637476,cybersecurity-intrusion-detection-dataset,Cybersecurity 🪪 Intrusion 🦠 Detection Dataset,14469442.0,dnkumars,https://www.kaggle.com/datasets/dnkumars/cybersecurity-intrusion-detection-dataset
+6633766,thyroid-cancer-risk-dataset,Thyroid Cancer Risk Dataset,20058738.0,mzohaibzeeshan,https://www.kaggle.com/datasets/mzohaibzeeshan/thyroid-cancer-risk-dataset
+6526267,employee-attrition-prediction-dataset,Employee Attrition Prediction Dataset,21058745.0,ziya07,https://www.kaggle.com/datasets/ziya07/employee-attrition-prediction-dataset
+6620808,diabetes-clinical-dataset100k-rows,Diabetes Clinical Dataset(100k rows),21058745.0,ziya07,https://www.kaggle.com/datasets/ziya07/diabetes-clinical-dataset100k-rows
+6637337,smart-grid-real-time-load-monitoring-dataset,Smart Grid Real-Time Load Monitoring Dataset,21058745.0,ziya07,https://www.kaggle.com/datasets/ziya07/smart-grid-real-time-load-monitoring-dataset
+6582717,bank-transaction-fraud-detection,Bank Transaction Fraud Detection,23922480.0,marusagar,https://www.kaggle.com/datasets/marusagar/bank-transaction-fraud-detection
+6447363,heart-attack-in-youth-vs-adult-in-germany,Heart Attack in Youth Vs Adult in Germany,24400938.0,unknown,https://www.kaggle.com/datasets/unknown/heart-attack-in-youth-vs-adult-in-germany
+6780168,ecommerce-consumer-behavior-analysis-data,Ecommerce Consumer Behavior Analysis Data,6540566.0,salahuddinahmedshuvo,https://www.kaggle.com/datasets/salahuddinahmedshuvo/ecommerce-consumer-behavior-analysis-data
+6732641,large-language-models-comparison-dataset,Large Language Models Comparison Dataset,7468446.0,samayashar,https://www.kaggle.com/datasets/samayashar/large-language-models-comparison-dataset
+6806004,ml-ready-maternal-health-risk-assessment-dataset,ML Ready Maternal Health Risk Assessment Dataset,11072849.0,arshmankhalid,https://www.kaggle.com/datasets/arshmankhalid/ml-ready-maternal-health-risk-assessment-dataset
+6748108,e-commerce-analytics-swiggy-zomato-blinkit,"E-Commerce Analytics: Swiggy, Zomato, Blinkit",22719581.0,logiccraftbyhimanshi,https://www.kaggle.com/datasets/logiccraftbyhimanshi/e-commerce-analytics-swiggy-zomato-blinkit
+6658307,corporate-work-hours-productivity,Corporate_work_hours_productivity,23999942.0,suryadeepthi,https://www.kaggle.com/datasets/suryadeepthi/corporate-work-hours-productivity
+6569695,brain-tumor-prediction-dataset,Brain Tumor Prediction Dataset,24400938.0,unknown,https://www.kaggle.com/datasets/unknown/brain-tumor-prediction-dataset
+6680932,marriage-trends-in-india-love-vs-arranged,Marriage Trends in India: Love vs. Arranged,25101770.0,ak0212,https://www.kaggle.com/datasets/ak0212/marriage-trends-in-india-love-vs-arranged
+6707768,heart-attack-prediction-in-united-states,Heart Attack Prediction in United States,25111615.0,ankushpanday2,https://www.kaggle.com/datasets/ankushpanday2/heart-attack-prediction-in-united-states
+6755890,colorectal-cancer-global-dataset-and-predictions,Colorectal Cancer Global Dataset & Predictions,25111615.0,ankushpanday2,https://www.kaggle.com/datasets/ankushpanday2/colorectal-cancer-global-dataset-and-predictions
+6739070,ai-recruitment-pipeline-dataset,AI Recruitment Pipeline Dataset,25299611.0,yaswanthkumary,https://www.kaggle.com/datasets/yaswanthkumary/ai-recruitment-pipeline-dataset
+5636313,employee-survey,Employee Survey,11226972.0,lainguyn123,https://www.kaggle.com/datasets/lainguyn123/employee-survey
+6857137,student-depression-dataset,Student Depression Dataset,22146488.0,adilshamim8,https://www.kaggle.com/datasets/adilshamim8/student-depression-dataset
+6867720,temperature,Global Environmental Trends 2000-2024,22146488.0,adilshamim8,https://www.kaggle.com/datasets/adilshamim8/temperature
+6988295,fraud-detection-dataset,Fraud Detection Dataset,5848633.0,amanalisiddiqui,https://www.kaggle.com/datasets/amanalisiddiqui/fraud-detection-dataset
+6888624,mental-health-and-lifestyle-habits-2019-2024,🧠 Mental Health and Lifestyle Habits (2019-2024),20269514.0,atharvasoundankar,https://www.kaggle.com/datasets/atharvasoundankar/mental-health-and-lifestyle-habits-2019-2024
+6880672,global-cybersecurity-threats-2015-2024,🌐 Global Cybersecurity Threats (2015-2024),20269514.0,atharvasoundankar,https://www.kaggle.com/datasets/atharvasoundankar/global-cybersecurity-threats-2015-2024
+6999291,finance-and-economics-dataset-2000-present,Finance & Economics Dataset (2000 - Present),24624370.0,khushikyad001,https://www.kaggle.com/datasets/khushikyad001/finance-and-economics-dataset-2000-present
+6509812,clear-command-level-annotated-ransomware,CLEAR - Command LEvel Annotated Ransomware,24639010.0,johndoenvme,https://www.kaggle.com/datasets/johndoenvme/clear-command-level-annotated-ransomware
+6869808,anxiety-and-depression-mental-health-factors,Anxiety and Depression Mental Health Factors,25101770.0,ak0212,https://www.kaggle.com/datasets/ak0212/anxiety-and-depression-mental-health-factors
+7150908,smart-farming-sensor-data-for-yield-prediction,🌾 Smart Farming Sensor Data for Yield Prediction,20269514.0,atharvasoundankar,https://www.kaggle.com/datasets/atharvasoundankar/smart-farming-sensor-data-for-yield-prediction
+7202556,impact-of-screen-time-on-mental-health,Impact of Screen Time on Mental Health,24624370.0,khushikyad001,https://www.kaggle.com/datasets/khushikyad001/impact-of-screen-time-on-mental-health
+7033769,tuberculosis-trends-global-and-regional-insights,Tuberculosis Trends -Global & Regional Insights,24624370.0,khushikyad001,https://www.kaggle.com/datasets/khushikyad001/tuberculosis-trends-global-and-regional-insights
+7398857,pizza-delivery-data-with-enhanced-features,Enhanced Pizza Sales Data (2024–2025),11024297.0,akshaygaikwad448,https://www.kaggle.com/datasets/akshaygaikwad448/pizza-delivery-data-with-enhanced-features
+7306329,hr-interview-questions-and-ideal-answers,HR Interview Questions and Ideal Answers.,13418410.0,aryan208,https://www.kaggle.com/datasets/aryan208/hr-interview-questions-and-ideal-answers
+7291481,crop-data-for-yield-and-recommendation-analysis,Data for Crop Yield and Recommendation Analysis,24370012.0,vedikasd,https://www.kaggle.com/datasets/vedikasd/crop-data-for-yield-and-recommendation-analysis
+7340048,china-cancer-patient-records,China Cancer Patient Records,25101770.0,ak0212,https://www.kaggle.com/datasets/ak0212/china-cancer-patient-records
+7103940,lifestyle-factors-and-their-impact-on-students,Lifestyle Factors and Their Impact on Students,26207603.0,charlottebennett1234,https://www.kaggle.com/datasets/charlottebennett1234/lifestyle-factors-and-their-impact-on-students
+7441041,li-s-battery-thermal-failure-dataset,Li-S Battery Thermal Failure Dataset,21058745.0,ziya07,https://www.kaggle.com/datasets/ziya07/li-s-battery-thermal-failure-dataset
+7474089,extrovert-vs-introvert-behavior-data,Extrovert vs. Introvert Behavior Data,26829034.0,rakeshkapilavai,https://www.kaggle.com/datasets/rakeshkapilavai/extrovert-vs-introvert-behavior-data
+5630996,student-performance-factors,Student Performance Factors,11226972.0,lainguyn123,https://www.kaggle.com/datasets/lainguyn123/student-performance-factors
+6651356,student-performance-and-learning-style,Student Performance and Learning Behavior Dataset,22146488.0,adilshamim8,https://www.kaggle.com/datasets/adilshamim8/student-performance-and-learning-style
+6592754,education-and-career-success,Education & Career Success,22146488.0,adilshamim8,https://www.kaggle.com/datasets/adilshamim8/education-and-career-success
+7610704,global-air-quality-and-respiratory-health-outcomes,Global Air Quality and Respiratory Health Outcomes,22370983.0,tfisthis,https://www.kaggle.com/datasets/tfisthis/global-air-quality-and-respiratory-health-outcomes
+7735754,lung-cancer-dataset,Lung Cancer Dataset,19100308.0,khwaishsaxena,https://www.kaggle.com/datasets/khwaishsaxena/lung-cancer-dataset
+7627861,task-turtles-vs-sprint-hares-work-style-dataset,🐢Task Turtles vs Sprint Hares- Work Style Dataset,20269514.0,atharvasoundankar,https://www.kaggle.com/datasets/atharvasoundankar/task-turtles-vs-sprint-hares-work-style-dataset
+7697287,irctc-bot-detection-dataset,IRCTC Bot Detection Dataset,24221912.0,subradeepdas02,https://www.kaggle.com/datasets/subradeepdas02/irctc-bot-detection-dataset
+7632129,pqd-16c-data,PQD-16c-Data,25641269.0,jkexin,https://www.kaggle.com/datasets/jkexin/pqd-16c-data
+7900449,disease-risk-from-daily-habits,Disease Risk from Daily Habits,11060747.0,mahdimashayekhi,https://www.kaggle.com/datasets/mahdimashayekhi/disease-risk-from-daily-habits
+7778171,remote-work-health-impact-survey-2025,Remote Work Health Impact Survey 2025,14282477.0,pratyushpuri,https://www.kaggle.com/datasets/pratyushpuri/remote-work-health-impact-survey-2025
+7806457,students-bag-price-dataset,Students Bag Price Dataset,17789887.0,jacoblazaar,https://www.kaggle.com/datasets/jacoblazaar/students-bag-price-dataset
+8032385,uber-ride-analytics-dashboard,Uber Data Analytics Dashboard,17122148.0,yashdevladdha,https://www.kaggle.com/datasets/yashdevladdha/uber-ride-analytics-dashboard
+8120888,foodpanda-analysis-dataset-2025,Foodpanda Analysis Dataset 2025,27895442.0,nabihazahid,https://www.kaggle.com/datasets/nabihazahid/foodpanda-analysis-dataset-2025
+8345177,multi-resistance-antibiotic-susceptibility,🧬 Multi-Resistance Antibiotic Susceptibility,11395503.0,adilimadeddinehosni,https://www.kaggle.com/datasets/adilimadeddinehosni/multi-resistance-antibiotic-susceptibility
+8298064,lifestyle-and-sleep-patterns,Lifestyle and Sleep Patterns,28655244.0,minahilfatima12328,https://www.kaggle.com/datasets/minahilfatima12328/lifestyle-and-sleep-patterns
+8334244,ai-tools-usage-analysis-in-education,AI Tools Usage Analysis in Education,26083725.0,visionlangai,https://www.kaggle.com/datasets/visionlangai/ai-tools-usage-analysis-in-education
+8319027,auto-insurance-claim-metadata-and-automation-service,Auto Insurance Claim Metadata & Automation Service,28352790.0,letuuyennguyen,https://www.kaggle.com/datasets/letuuyennguyen/auto-insurance-claim-metadata-and-automation-service
+8601933,e-commerce-customer-behavior-and-sales-analysis-tr,E-Commerce Customer Behavior & Sales Analysis -TR,22121490.0,umuttuygurr,https://www.kaggle.com/datasets/umuttuygurr/e-commerce-customer-behavior-and-sales-analysis-tr
+8692100,ai-impact-on-jobs-2030,AI Impact on Jobs 2030,24624370.0,khushikyad001,https://www.kaggle.com/datasets/khushikyad001/ai-impact-on-jobs-2030
+8447134,medical-insurance-cost-prediction,Medical Insurance Cost Prediction,28246512.0,mohankrishnathalla,https://www.kaggle.com/datasets/mohankrishnathalla/medical-insurance-cost-prediction
+8484045,tata-cars-all-data,TATA_Motors_demo_data,28312915.0,vengateshvengat,https://www.kaggle.com/datasets/vengateshvengat/tata-cars-all-data
+8841114,social-media-mental-health-indicators-dataset,Social Media Mental Health Indicators Dataset,22455380.0,sonalshinde123,https://www.kaggle.com/datasets/sonalshinde123/social-media-mental-health-indicators-dataset
+8896518,ai-fair-recrutment-dataset,Ai Fair recrutment Dataset,28664494.0,roiiith,https://www.kaggle.com/datasets/roiiith/ai-fair-recrutment-dataset
+8971668,car-price,Car Features and Price Analysis Dataset,29095878.0,ayeshaseherr,https://www.kaggle.com/datasets/ayeshaseherr/car-price
+9187377,my-little-pony-equestripedia-dataset,Equestripedia: My Little Pony Character Metadata,5771220.0,josephnehrenz,https://www.kaggle.com/datasets/josephnehrenz/my-little-pony-equestripedia-dataset
+9199936,retail-sku-demand-prediction,Retail SKU Demand Prediction,7933065.0,ankit282k,https://www.kaggle.com/datasets/ankit282k/retail-sku-demand-prediction
+9177539,global-population-pressure-index,Global_Population_Pressure_Index,27697476.0,sarcasmos,https://www.kaggle.com/datasets/sarcasmos/global-population-pressure-index
+9165937,large-scale-math-reasoning-dataset-520k,Large-Scale Math Reasoning Dataset (520K),28660892.0,dineshkumar0705,https://www.kaggle.com/datasets/dineshkumar0705/large-scale-math-reasoning-dataset-520k
+9191491,global-ai-and-data-science-job-market-20202026,Global AI & Data Science Job Market (2020–2026),29672951.0,mann14,https://www.kaggle.com/datasets/mann14/global-ai-and-data-science-job-market-20202026

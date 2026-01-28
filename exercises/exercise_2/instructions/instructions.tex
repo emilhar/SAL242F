@@ -1,0 +1,195 @@
+\documentclass[11pt]{article}
+
+\usepackage[a4paper,margin=2.5cm]{geometry}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{lmodern}
+\usepackage{hyperref}
+\usepackage{enumitem}
+\usepackage{verbatim}
+\usepackage{framed}
+\usepackage{tabularx}
+\usepackage{url}
+
+% Add spacing between paragraphs
+\setlength{\parskip}{0.5em}
+%\setlength{\parindent}{0pt}
+
+\title{SÁL242F Exercise 2: Fabricated Data Forensics}
+\author{}
+\date{}
+
+\begin{document}
+\maketitle
+
+\section*{Overview}
+This exercise is about tracing fabricated or highly unrealistic data \emph{from online repositories into published scientific papers}.
+You will begin with Kaggle datasets, systematically identify those that are \textbf{rumored to be fabricated}, locate academic papers that claim to use them, and finally verify whether at least one such paper relies on fake data.
+
+You may use \textbf{any tools you want}. Python is recommended. The steps outlined below are recommendations, feel free to think outside the box and find other ways to approach the problem.
+
+\section*{Outline of the exercise}
+The exercise consists of four conceptual steps:
+
+\begin{enumerate}[leftmargin=*]
+  \item \textbf{Find rumored fake data on Kaggle}
+
+  \item \textbf{Find academic papers that talk about these datasets}  
+
+  \item \textbf{Identify at least one published paper that uses a suspected fabricated dataset}  
+
+  \item \textbf{Verify that the dataset used by that paper is fabricated}  
+\end{enumerate}
+
+\textbf{Kaggle} (\url{https://www.kaggle.com/}) is an online platform where users upload datasets, code, and models.
+Anyone can upload a dataset, which means that data quality varies widely.
+Despite this, Kaggle datasets are frequently used in academic papers.
+This makes Kaggle an ideal environment for studying how low-quality or fabricated data can enter the scientific literature.
+
+\section*{Step 1: Finding rumored fake data using Meta Kaggle}
+Spend some time exploring Kaggle datasets and see if you can find any that you suspect to be fabricated.
+You may notice that sometimes users ask questions or make comments suggesting that a dataset is synthetic, fake, or generated.
+To do that, you can use \textbf{Meta Kaggle}, a public dataset released by Kaggle that contains \emph{metadata about Kaggle itself}.
+
+Meta Kaggle (\url{https://www.kaggle.com/datasets/kaggle/meta-kaggle}) is a collection of CSV files that describe various aspects of Kaggle, including datasets, discussion forums and users.
+Using these files, you can automate the process of finding fabricated datasets with some scripting.
+
+If you connect the files in an appropriate way, it allows you to ask questions like:``Which datasets have comments mentioning \texttt{synthetic}?'' and then ``Which of those datasets do not mention \texttt{synthetic}, \texttt{simulated} or \texttt{generated} in their official description?''
+
+\begin{framed}
+\noindent\textbf{Hint:}
+The CSV files are a bit complex to navigate. In order to answer the above questions, you need to join multiple tables together. 
+
+\begin{itemize}[leftmargin=*]
+  \item \texttt{ForumMessages.csv} contains comment text
+  \item Comments belong to topics in \texttt{ForumTopics.csv}
+  \item Topics belong to dataset forums in \texttt{Datasets.csv}
+  \item Dataset text lives in \texttt{DatasetVersions.csv}
+  \item The names of users who posted comments are in \texttt{Users.csv}. You need this to create the link to the dataset, because
+  % "https://www.kaggle.com/datasets/" + result['UserName'] + "/" + result['Slug']
+  the dataset URL is constructed from the \texttt{UserName} and \texttt{Slug} fields like this: \texttt{https://www.kaggle.com/datasets/UserName/Slug}
+\end{itemize}
+\end{framed}
+
+By joining these tables, you can: find datasets where \emph{comments} mention ``synthetic'', ``fake'' or ``generated'' and remove datasets whose \emph{official description} already admits this.
+What remains is typically \textbf{on the order of a few hundred datasets} that are rumored to be fabricated, but where the official description does not admit this.
+
+\begin{framed}
+\noindent\textbf{Hint:}  
+If your joins and filters are correct, you should end up with \textbf{roughly 200 ``hidden'' synthetic datasets}.  
+\end{framed}
+
+You are not expected to inspect all of them, but it is a good idea to open a few in order to check if the your processing steps are working as expected.
+You can perform \textbf{spot checks}:
+\begin{itemize}[leftmargin=*]
+  \item Doe some of the comments mention synthetic data?
+  \item Does the official description not mention synthetic data?
+  \item Do the datasets immediately look unrealistic?
+  \item Do distributions look suspiciously clean?
+  \item Do values repeat in unnatural ways?
+\end{itemize}
+
+If your list of datasets looks plausible, you move on.
+The goal here is \textbf{triage}, not proof.
+
+At this stage, you could have a table of candidate datasets that looks roughly like this:
+
+% Table of candidate datasets
+% DatasetId,Slug,Title,OwnerUserId,UserName,URL
+%2964,xinjiang-pm,xinjiang(Predictive Maintenance),703448.0,yuansaijie0604,https://www.kaggle.com/datasets/yuansaijie0604/xinjiang-pm
+
+\begin{center}
+    \footnotesize
+\begin{tabular}{l|l|l|l|l|l}
+
+DatasetId & Slug & Title & OwnerUserId & UserName & URL \\
+\hline
+2964 & xinjiang-pm & Predictive Maintenance & 703448.0 & yuansaijie0604 & \url{https://...} \\
+
+... & ... & ... & ... & ... & ... \\
+\end{tabular}
+\end{center}
+
+\section*{Step 2: Finding papers using OpenAlex}
+
+Once you have candidate datasets, the next step is to find papers that claim to use them.
+
+For this, we again make use of an open database and API called \textbf{OpenAlex}.
+OpenAlex is an open, structured database of scientific publications, citations, authors, and institutions.
+It provides a public API that allows programmatic search across millions of papers.
+You can find OpenAlex documentation here: 
+\url{https://docs.openalex.org/}.
+
+We use OpenAlex because it supports full-text search, exposes citation counts and allows automated, reproducible queries.
+This makes it ideal for systematically finding papers that reference our Kaggle datasets.
+
+The most effective strategy is to search for papers whose full text contains the dataset name, and the word ``Kaggle''
+
+\begin{framed}
+\noindent\textbf{Hint:}  
+Use OpenAlex full-text search rather than title-only search.
+This is how you find methods sections and data acknowledgements. Your search query could look something like this:
+\begin{verbatim}
+https://api.openalex.org/works?filter=full_text.search:"Kaggle"+"Dataset+Name"
+\end{verbatim}
+\end{framed}
+
+At the end of this step, you could have a table that looks roughly like this:
+
+% Dataset,Paper_Title,Year,Cited_By_Count,DOI,OpenAccess_URL,Is_Accessible
+%Credit Card Fraud Detection,"A Survey of Ensemble Learning: Concepts, Algorithms, Applications, and Prospects",2022,965,https://doi.org/10.1109/access.2022.3207287,https://ieeexplore.ieee.org/ielx7/6287639/6514899/09893798.pdf,False
+% Word wrap the columns for better readability
+
+\begin{center}
+\footnotesize
+\begin{tabular}{p{2.0cm}|p{4.2cm}|p{1.0cm}|p{1.2cm}|p{1.2cm}|p{2.2cm}|p{1.0cm}}
+Dataset & Paper Title & Year & Cited By Count & DOI & OpenAccess URL & Is Accessible \\
+\hline
+Credit Card Fraud Detection &
+A Survey of Ensemble Learning: Concepts, Algorithms, Applications, and Prospects &
+2022 &
+965 &
+\url{https://doi.org/...} &
+\url{https://ieeexplore.ieee.org/...} &
+False \\
+... & ... & ... & ... & ... & ... & ... \\
+
+\end{tabular}
+\end{center}
+
+
+
+\section*{Step 3: Identifying a paper that actually uses the data}
+Not all papers that mention a dataset actually use it.
+
+Your goal is to find \textbf{at least one paper} that clearly claims to use a Kaggle dataset and describes the dataset as real or observational. You can do this by manually inspecting the papers returned by OpenAlex or by scraping the papers' full text and searching for relevant phrases. For automatic processing, you can use \texttt{pypdf} or similar libraries to extract text from PDF files and then search for phrases or patterns that indicate actual usage of the dataset.
+
+\begin{framed}
+\noindent\textbf{Hint:}  
+The more citations a paper has, the less likely it is to be using fabricated data.
+\end{framed}
+
+At the end of this step, you should have identified at least one paper that \textbf{clearly uses a dataset that you expect is fabricated} but does not state this explicitly.
+
+\section*{Step 4: Final forensic verification}
+Finally, you perform a forensic analysis of \emph{one dataset}.
+The goal is to determine whether the dataset used by the paper is indeed fabricated.
+If the dataset does not appear fabricated, return to earlier steps and select a new candidate.
+
+To do this, you download the dataset from Kaggle and analyze its statistical properties.
+You can use any techniques you like, including visualizations, summary statistics, and statistical tests. Often the quickest way to identify fabricated data is to look for \textbf{unnatural patterns}, such as:
+\begin{itemize}[leftmargin=*]
+  \item Repeated values
+  \item Unusual distributions (e.g., too uniform, too normal)
+  \item Lack of expected correlations
+  \item Implausible outliers. For example, human heights of 10 cm or 300 cm
+\end{itemize}
+
+\section*{Prize}
+A prize will be awarded to the student who finds a \textbf{published paper using fabricated data} with the \textbf{highest citation count} (according to OpenAlex).
+
+\vspace{1cm}
+
+\noindent\textbf{Good luck!}
+
+\end{document}
